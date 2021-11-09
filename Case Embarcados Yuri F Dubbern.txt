@@ -1,0 +1,35 @@
+Pseudocodigo:
+"contador"=c=0
+PID
+for(c=0,c++)
+if PID==1
+print(its alive)
+else
+print("its is dead")
+open (pid.py)
+
+Codigo Shell:
+#!/bin/bash
+for((loop=1;loop>0;loop++)); do
+read pid.py
+if ps -p $PID > /dev/null
+then
+echo "Its Alive"
+else;
+echo "It is Dead"
+python pid.py
+
+Codigo Python:
+:~$ python3
+>>exec(open('pid.py').read())
+get_pid(pid);
+print (pid)
+c=0;
+while c<3:
+c=c+1;
+print("I am Alive")
+if c=3:
+print("i gonna Die")
+
+O pseudocodigo serve para estruturar a logica base do problema a ser resolvido e depois precisa ser ajustado a com sintaxe correta da programação escolhida.
+A integração entre a linguagem shell e o pyhton se da no proprio terminal no arquivo pid.py
